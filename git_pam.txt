@@ -1,0 +1,12 @@
+git config --global user.name "Eugene Tyurin"
+git config --global user.email "derision@mail.ru"
+git init //Создание репозитория
+git status //Показывает состояние репозитория
+git add git_pam.txt //Добавляем файл в репозиторий / Индексируем новую версию
+git commit -m "Добавлен файл git_pam.txt"  //Шаг в историю
+git log // просмотр всех записей
+git log -p// просмотр всех записей (Полный)
+git reset HEAD //Отмена изменений, если еще не закомичено
+git checkout -- git_pam.txt //Отмена изменений, если еще не закомичено
+git reset --hard HEAD~3 // Жесткий откат с затиранием всех изменений ОПАСНО!!!
+//
